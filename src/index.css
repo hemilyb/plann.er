@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+.rdp-day_selected,
+.rdp-day_selected:hover {
+  background-color: #bef264;
+  color: #09090b;
+}
